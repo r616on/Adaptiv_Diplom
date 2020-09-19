@@ -62,20 +62,20 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
     font-family: 'Open Sans';
-    src: url url('/fonts/OpenSans-Bold.woff') format('woff'), url('/fonts/OpenSans-Bold.ttf') format('truetype'), url('/fonts/OpenSans-Bold.woff2') format('woff2');
+    src: url url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.ttf') format('truetype'), url('/fonts/OpenSans-Regular.woff') format('woff'), url('/fonts/OpenSans-Regular.woff2') format('woff2');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 .header {
-    background-image: url("..../img/banner-bg.jpg");
+    background-image: url("../img/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 48px;
     background-color: #b59f5b;
-    background-image: url("..../img/svg/search.svg");
+    background-image: url("../img/svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center center;
@@ -619,6 +619,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 40px;
     text-transform: uppercase;
     background-color: #b59f5b;
+    text-align: center;
+    padding-top: 4px;
 }
 
 /*Products///*/
