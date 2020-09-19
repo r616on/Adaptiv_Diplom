@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    background-image: url("../img/banner-bg.jpg");
+    background-image: url("..../img/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 48px;
     background-color: #b59f5b;
-    background-image: url("../img/svg/search.svg");
+    background-image: url("..../img/svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center center;
@@ -663,23 +663,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .twitter {
-    background-image: url("/img/svg/004-twitter.svg");
+    background-image: url("../img/svg/004-twitter.svg");
 }
 
 .pinterest {
-    background-image: url("/img/svg/001-pinterest.svg");
+    background-image: url("../img/svg/001-pinterest.svg");
 }
 
 .facebook {
-    background-image: url("/img/svg/002-facebook-logo.svg");
+    background-image: url("../img/svg/002-facebook-logo.svg");
 }
 
 .instagram {
-    background-image: url("/img/svg/005-instagram.svg");
+    background-image: url("../img/svg/005-instagram.svg");
 }
 
 .tumblr {
-    background-image: url("/img/svg/003-tumblr.svg");
+    background-image: url("../img/svg/003-tumblr.svg");
 }
 
 .copywriting {
