@@ -804,11 +804,13 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 19px;
     }
     .main_column {
+        display: flex;
+        justify-content: space-between;
         padding-top: 50px;
     }
     .first_column {
         max-width: 393px;
-        margin-right: 35px;
+        margin-right: 5px;
     }
     .column {
         flex-direction: column;
@@ -833,6 +835,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .column_img {
         max-width: 100%;
+        margin-right: 0;
     }
     .column_category {
         margin-top: 10px;
