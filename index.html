@@ -16,6 +16,7 @@
 <!-- Отображаемое тело страницы -->
 
 <body>
+
     <header class="header">
         <div class="conteiner">
             <div class="header_top">
@@ -367,7 +368,12 @@
                     <div class="products_row">
 
                         <article class="products_item">
-                            <img class="products_image" src="img/shop-item-desk1.jpg" alt="подушка">
+                            <picture class="products_image">
+                                <source srcset="img/shop-item-mobile1.jpg" media="(max-width:640px)">
+                                <source srcset="img/shop-item-tablet1.jpg"
+                                    media="(min-width:641px) and (max-width:1200px)">
+                                <img src="img/shop-item-desk1.jpg" alt="подушка">
+                            </picture>
                             <div class="products_content">
                                 <div class="products_body">
                                     <h2><a class="products_title title" href="#0">Подушки на диван</a>
@@ -386,7 +392,12 @@
                         </article>
 
                         <article class="products_item">
-                            <img class="products_image" src="img/shop-item-desk2.jpg" alt="Кукла «Зайчик»">
+                            <picture class="products_image">
+                                <source srcset="img/shop-item-mobilet2.jpg" media="(max-width:640px)">
+                                <source srcset="img/shop-item-tablet2.jpg"
+                                    media="(min-width:641px) and (max-width:1200px)">
+                                <img src="img/shop-item-desk2.jpg" alt="Зайчик">
+                            </picture>
                             <div class="products_content">
                                 <div class="products_body">
                                     <h2><a class="products_title title" href="#0">Кукла «Зайчик»</a>
@@ -405,7 +416,12 @@
                         </article>
 
                         <article class="products_item">
-                            <img class="products_image" src="img/shop-item-desk3.jpg" alt="Шестиугольная рамка">
+                            <picture class="products_image">
+                                <source srcset="img/shop-item-mobilet3.jpg" media="(max-width:640px)">
+                                <source srcset="img/shop-item-tablet3.jpg"
+                                    media="(min-width:641px) and (max-width:1200px)">
+                                <img src="img/shop-item-desk3.jpg" alt="Шестиугольная рамка">
+                            </picture>
                             <div class="products_content">
                                 <div class="products_body">
                                     <h2><a class="products_title title" href="#0">Шестиугольная рамка</a>
