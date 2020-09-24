@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Шрифты подключенны*/
 
+img {
+    width: 100%;
+}
+
 /*Pup-UP*/
 
 .pop-up {
@@ -292,10 +296,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.logo img {
-    width: 100%;
-}
-
 .header__menu {
     display: flex;
 }
@@ -484,10 +484,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 30px;
 }
 
-.column_img img {
-    width: 100%;
-}
-
 .column_content {
     display: flex;
     flex-direction: column;
@@ -585,7 +581,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 19px;
 }
 
-.posts_img {}
+.posts_img {
+    min-width: 70px;
+    max-width: 70px;
+}
 
 .posts_date {
     opacity: 0.54;
@@ -759,10 +758,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.products_image img {
-    width: 100%;
 }
 
 .products_image {
