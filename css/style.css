@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 12px;
 }
 
-.column_content p:last-chaild {
+.column_content p:last-child {
     margin-bottom: 0px;
 }
 
@@ -616,13 +616,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .search {
     width: calc(100% - 48px);
-    padding: 18px 0 18px 18px;
-    height: 100%;
 }
 
-.search input {
+.search_input {
     background-color: #f4f7f6;
     width: 100%;
+    padding: 18px 0 18px 18px;
+    height: 100%;
 }
 
 .search_button {
