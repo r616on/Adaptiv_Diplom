@@ -926,6 +926,9 @@ img {
 }
 
 @media (min-width:641px) and (max-width:1200px) {
+    .header {
+        background-image: url("../img/banner-bg-tablet.jpg");
+    }
     .conteiner {
         max-width: 768px;
         padding-left: 35px;
@@ -1043,12 +1046,18 @@ img {
 }
 
 @media (min-width:641px) and (max-width:1200px) and (orientation:landscape) {
+    .header {
+        background-image: url("../img/banner-bg-tablet.jpg");
+    }
     .trend_item {
         width: calc(25% - 2px);
     }
 }
 
 @media (max-width:640px) {
+    .header {
+        background-image: url("../img/banner-mobile.jpg");
+    }
     .pop-up {
         width: 100%;
         position: fixed;
@@ -1205,6 +1214,9 @@ img {
 }
 
 @media (max-width:640px) and (orientation:landscape) {
+    .header {
+        background-image: url("../img/banner-mobile.jpg");
+    }
     .trend_item {
         width: calc(50% - 1px);
         height: 249px;
